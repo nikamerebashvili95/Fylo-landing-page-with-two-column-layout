@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', 'Raleway' , sans-serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 24px 98px 24px;
+}
+.header-logo-desktop{
+    display: none;
+}
+.main-nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+}
+.main-nav-link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #07043B;
+    text-decoration: none;
+}
+/**************** SECURE LOCATION SECTION ****************/
+.secure-location-section{
+    margin: 0 27px 90px 28px;
+}
+.secure-location-img-box{
+    display: flex;
+    justify-content: center;
+}
+.secure-location-img-desktop{
+    display: none;
+}
+.secure-location-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #07043B;
+    margin-top: 40px;
+}
+.secure-location-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #07043B;
+    margin: 24px 43px 0 36px;
+}
+.secure-location-form-container{
+    margin-top: 32px;
+}
+.secure-location-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.email{
+    width: 304px;
+    height: 40px;
+    padding: 14px 181px 12px 21px;
+}
+::placeholder{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+    color: #C2C2C2;
+}
+.email-btn{
+    width: 304px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    cursor: pointer;
+}
+.email-btn:hover{
+    background-color: #6C9BFF;
+}
+/************ STORAGE SECTION *************/
+.bg-curve-mobile{
+    width: 100%;
+    display: inline;
+    margin-bottom: -5px;
+}
+.bg-curve-desktop{
+    display: none;
+}
+
+.fylo-works-img{
+    width: 100%;
+    background-color: #F8F8FE;
+}
+.fylo-works-img-desktop{
+    display: none;
+}
+.fylo-works-content{
+    margin-bottom: 40px;
+    background-color: #F8F8FE;
+    padding: 87px 27px 0 28px;
+    margin-top: -5px;
+}
+.fylo-title{  
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #07043B;
+    margin-bottom: 24px;
+}
+.fylo-text-1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #615F7E;
+    margin-bottom: 16px;
+}
+.fylo-text-2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #615F7E;
+    margin-bottom: 36px;
+}
+.fylo-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3DA08F;
+}
+.fylo-link:link,
+.fylo-link:hover{
+    color: #71DFCC;
+}
+.card-background{
+    background-color: #F8F8FE;
+    margin-top: -40px;
+    padding-top: 40px;
+    padding-bottom: 81px;
+}
+.card-container{
+    width: 280px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;
+}
+.card{
+    padding: 9.44px 12.74px 18.62px 25.96px;
+}
+.card-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.384615px;
+    color: #07043B;
+    margin-bottom: 12px;
+}
+.kyle-img{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.founder-info{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.founder{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+.founder-name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+    color: #07043B;
+}
+.founder span{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+    color: #07043B;
+}
+/*************** ACCESS SECTION ***************/
+.access-section{
+    background-color: #575988;
+    padding: 54px 47px 71px 48px;
+}
+.access-title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.access-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.enter-email{
+    width: 240px;
+    height: 32px;
+    padding: 11px 102px 9px 8px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    border: none;
+}
+.access-btn{
+    width: 240px;
+    height: 32px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    background-color: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.access-btn:hover{
+    background-color: #6C9BFF;
+}
+/************* FOOTER **************/
+.footer{
+    background-color: #07043B;
+    padding: 65px 0 42px 39px;
+}
+.fylo-logo-desktop{
+    display: none;
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.contact{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-nav-list{
+    list-style: none;
+}
+.footer-nav-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-logo{
+    margin-bottom: 32px;
+}
+.email-address{
+    margin-top: 16px;
+}
+.footer-nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footer-nav-link:hover{
+    color: #6C9BFF;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.i-div {
+    text-align: center
+}
+i {
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-right: 15px;
+}
+i:hover {
+    color: #6C9BFF;
+    cursor: pointer;
+}
+/********** MEDIA ************/
+@media (min-width: 1280px){
+    .header{
+        margin: 65px 80px 86px 80px;
+    }
+    .header-logo-desktop{
+        display: block;
+    }
+    .header-logo-mobile{
+        display: none;
+    }
+    .main-nav-link{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .main-nav-list{
+        gap: 57px;
+    }
+    .secure-location-img{
+        display: none;
+    }
+    .secure-location-img-desktop{
+        display: block;
+    }
+    .secure-location{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 13px;
+    }
+    .secure-location-content-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .secure-location-form{
+        flex-direction: row;
+    }
+    .secure-location-title{
+        font-size: 40px;
+        line-height: 60px;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .secure-location-text{
+        font-size: 17px;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+    .secure-location-form-container {
+        margin-top: 25px;
+    }
+    .email-btn{
+        width: 200px;
+        height: 45px;
+    }
+    .secure-location-section{
+        margin: 0 80px 164px 80px;
+    }
+    .fylo-works-img{
+        display: none;
+    }
+    .storage-img-box-desktop{
+        background-color: #F8F8FE;
+    }
+    .fylo-works-img-desktop{
+        display: block;
+    }
+    .fylo-works{
+        display: flex;
+        flex-direction: column;
+        gap: 88px;
+    }
+    .fylo{
+        display: flex;
+        justify-content: space-between;
+        background-color: #F8F8FE;
+    }
+    .fylo-title{
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .fylo-text-1{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .fylo-text-2{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .fylo-link{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .card-text{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .kyle-img{
+        width: 32px;
+        height: 32px;
+    }
+    .founder-name{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .founder span{
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .access-section{
+        display: flex;
+        justify-content: space-between;
+        gap: 227px;
+        padding: 100px 120px 80px 80px;
+    }
+    .access{
+        width: 533px;
+        display: flex;
+        flex-direction: column;
+    }
+    .access-title{
+        font-size: 32px;
+        line-height: 48px;
+        text-align: left;
+    }
+    .access-text{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .access-btn{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .secure-location-form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .enter-email{
+        width: 480px;
+        height: 48px;
+    }
+    .access-btn{
+        width: 200px;
+        height: 48px;
+    }
+    .footer{
+        padding: 92px 261px 86px 80px;
+    }
+    .bg-curve-desktop{
+        max-width: 100%;
+    }
+    .fylo-logo-desktop{
+        display: block;
+    }
+    .fylo-logo-mobile{
+        display: none;
+    }
+    .fylo-title, .fylo-text-1, .fylo-text-2, .fylo-link {
+        width: 650px;
+        text-align: left;
+    }
+    .fylo-link{
+        justify-content: left;
+    }
+    .card-container{
+        margin: 0 0 0 20px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-nav-box{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 200px;
+    }
+    .footer-content{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 200px;
+    }
+    .footer-nav-list{
+        margin-top: 0;
+    }
+    .i-div{
+        display: flex;
+        gap: 11px;
+    }
+} 
+@media (min-width: 1440px){
+    .secure-location-title{
+        width: 627px;
+    }
+    .secure-location-text{
+        width: 585px;
+    }
+    .bg-curve-mobile{
+        display: none;
+    }
+    .bg-curve-desktop{
+        display: block;
+    }
+    .fylo-works-section{
+        margin-right: 90px;
+        margin-left: 70px;
+    }
+}  
